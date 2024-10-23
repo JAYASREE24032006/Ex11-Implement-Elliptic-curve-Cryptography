@@ -1,7 +1,8 @@
-## EX11 - ELLIPTIC CURVE CRYPTOGRAPHY(ECC)
+# EX11 - ELLIPTIC CURVE CRYPTOGRAPHY(ECC)
 ## AIM :
 To implement the Elliptic curve Cryptography using c program and standard library functions.
-
+## THEORM :
+Elliptic Curve Cryptography (ECC) is a form of public-key cryptography based on the algebraic structure of elliptic curves over finite fields. It provides the same level of security as traditional methods like RSA but with much smaller key sizes, making it more efficient for encryption, decryption, and digital signatures.
 ## ALGORITHM :
 ### STEP 1 :
 Alice and Bob agree on the elliptic curve equation, base point G, and prime modulus p.
