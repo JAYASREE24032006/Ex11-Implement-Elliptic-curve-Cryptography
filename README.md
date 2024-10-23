@@ -1,23 +1,22 @@
-## EX-11 : Implement-Elliptic-curve-Cryptography
+## EX11 - ELLIPTIC CURVE CRYPTOGRAPHY(ECC)
+## AIM :
+To implement the Elliptic curve Cryptography using c program and standard library functions.
 
-## AIM:
-To implement the Elliptic curve Cryptography
-
-## ALGORITHM:
-### STEP-1:
+## ALGORITHM :
+### STEP 1 :
 Alice and Bob agree on the elliptic curve equation, base point G, and prime modulus p.
-### Step 2:
+### STEP 2 :
 Alice selects a random private key a and computes her public key 𝐴 =𝑎⋅𝐺
-### Step 3:
+### STEP 3:
 Alice sends her public key A to Bob.
-### Step 4:
+### STEP 4:
 Bob selects a random private key b and computes his public key B=b⋅G.
-### Step 5:
+### STEP 5:
 Bob sends his public key B to Alice.
-### Step 6:
+### STEP 6:
 Alice computes the shared secret key as Secret=a⋅B.
 Bob computes the shared secret key as Secret=b⋅A.
-## PROGRAM:
+## PROGRAM :
 ```
 #include <stdio.h>
 struct Point 
@@ -104,9 +103,9 @@ int main()
 }
 
 ```
-## OUTPUT:
+## OUTPUT :
 ![image](https://github.com/user-attachments/assets/37325fbd-6a36-4425-ad88-6963798d4d14)
 
 
 ## RESULT:
-Thus the Implement-Elliptic-curve-Cryptography had been successfully implemented using C
+The program to Implement-Elliptic-curve-Cryptography using c had been executed successfully. 
